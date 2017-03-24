@@ -1,0 +1,9 @@
+my_app_user_homepage:
+    path:     /
+    defaults: { _controller: MyAppUserBundle:Default:index }
+backoffice_homepage:
+    path: /backOff
+    defaults: { _controller: MyAppUserBundle:RedirectionAdmin:index}
+user_homepage:
+    path: /home
+    defaults: { _controller: FOSUserBundle:Profile:show}

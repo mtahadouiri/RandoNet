@@ -1,0 +1,4 @@
+services:
+#    rando_net.example:
+#        class: RandoNetBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

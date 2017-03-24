@@ -1,0 +1,3 @@
+rando_net_homepage_admin:
+    path:     /
+    defaults: { _controller: RandoNetBundle:Default:index }
