@@ -1,0 +1,15 @@
+<h2>Interface d'affichage des modèles :)</h2>
+<table border="1">
+    <tr>
+        <td>ID</td>
+        <td>Nom</td>
+        <td>Prix</td>
+    </tr>
+    {% for i in m %}
+        <tr>
+            <td>{{ i.idRandonnee }}</td>
+            <td>{{ i.nomRando }}</td>
+            <td>{{ i.prix }}</td>
+        </tr>
+    {% endfor %}
+</table>
